@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none">
+
+	<test name="TC1">
+		<parameter name="browser" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="group1"></include>
+				<exclude name="group2"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="pagetests.VerifySampleTestCase" />
+		</classes>
+	</test>
+	<test name="TC2">
+		<parameter name="browser" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="group1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="pagetests.VerifySampleTestCase">
+				<methods>
+					<include name="test_2"></include>
+					<exclude name="test_1"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3">
+		<parameter name="browser" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="group2"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="pagetests.VerifySampleTestCase" />
+		</classes>
+	</test>
+	<test name="TC4"><!-- Cross-Browser -->
+		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="group1"></include>
+				<exclude name="group2"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="pagetests.VerifySampleTestCase" />
+		</classes>
+	</test>
+</suite>

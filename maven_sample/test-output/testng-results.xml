@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126239" started-at="2015-11-02T09:39:22Z" finished-at="2015-11-02T09:41:28Z">
+    <groups>
+      <group name="group2">
+        <method signature="VerifySampleTestCase.test_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_3" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" class="pagetests.VerifySampleTestCase"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="VerifySampleTestCase.test_1()[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="test_1" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_2()[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="test_2" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_1()[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="test_1" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_2()[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="test_2" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_1()[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="test_1" class="pagetests.VerifySampleTestCase"/>
+        <method signature="VerifySampleTestCase.test_2()[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="test_2" class="pagetests.VerifySampleTestCase"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="TC1" duration-ms="17171" started-at="2015-11-02T09:39:22Z" finished-at="2015-11-02T09:39:39Z">
+      <class name="pagetests.VerifySampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="setUp" is-config="true" duration-ms="8455" started-at="2015-11-02T16:39:22Z" finished-at="2015-11-02T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="test_1" duration-ms="4531" started-at="2015-11-02T16:39:30Z" description="Verify Adoption-Page checkLion" finished-at="2015-11-02T16:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="test_2()[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="test_2" duration-ms="3927" started-at="2015-11-02T16:39:35Z" description="Verify Adoption-Page checkTurle" depends-on-methods="pagetests.VerifySampleTestCase.test_1" finished-at="2015-11-02T16:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:pagetests.VerifySampleTestCase@5594a1b5]" name="cleanUp" is-config="true" duration-ms="241" started-at="2015-11-02T16:39:39Z" finished-at="2015-11-02T16:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- pagetests.VerifySampleTestCase -->
+    </test> <!-- TC1 -->
+    <test name="TC2" duration-ms="15051" started-at="2015-11-02T09:39:39Z" finished-at="2015-11-02T09:39:54Z">
+      <class name="pagetests.VerifySampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="setUp" is-config="true" duration-ms="6406" started-at="2015-11-02T16:39:39Z" finished-at="2015-11-02T16:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="test_1" duration-ms="4534" started-at="2015-11-02T16:39:46Z" description="Verify Adoption-Page checkLion" finished-at="2015-11-02T16:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="test_2()[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="test_2" duration-ms="3896" started-at="2015-11-02T16:39:50Z" description="Verify Adoption-Page checkTurle" depends-on-methods="pagetests.VerifySampleTestCase.test_1" finished-at="2015-11-02T16:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:pagetests.VerifySampleTestCase@6cd8737]" name="cleanUp" is-config="true" duration-ms="212" started-at="2015-11-02T16:39:54Z" finished-at="2015-11-02T16:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- pagetests.VerifySampleTestCase -->
+    </test> <!-- TC2 -->
+    <test name="TC3" duration-ms="77487" started-at="2015-11-02T09:39:54Z" finished-at="2015-11-02T09:41:12Z">
+      <class name="pagetests.VerifySampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="setUp" is-config="true" duration-ms="5780" started-at="2015-11-02T16:39:54Z" finished-at="2015-11-02T16:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_3" duration-ms="8173" started-at="2015-11-02T16:40:00Z" description="Verify Adoption-Page checkTurle, DataProvider Object" data-provider="infomation" finished-at="2015-11-02T16:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method status="PASS" signature="test_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_3" duration-ms="6881" started-at="2015-11-02T16:40:08Z" description="Verify Adoption-Page checkTurle, DataProvider Object" data-provider="infomation" finished-at="2015-11-02T16:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vietnam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method status="PASS" signature="test_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_3" duration-ms="7028" started-at="2015-11-02T16:40:15Z" description="Verify Adoption-Page checkTurle, DataProvider Object" data-provider="infomation" finished-at="2015-11-02T16:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[england]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@google.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[76860]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6927" started-at="2015-11-02T16:40:23Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email1@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6922" started-at="2015-11-02T16:40:30Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email2@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6910" started-at="2015-11-02T16:40:37Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email3@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6870" started-at="2015-11-02T16:40:44Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email4@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6994" started-at="2015-11-02T16:40:51Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email5@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="6844" started-at="2015-11-02T16:40:58Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email6@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="test_4(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="test_4" duration-ms="7201" started-at="2015-11-02T16:41:04Z" description="Verify User Information  using Excel dataset" data-provider="exceldata" finished-at="2015-11-02T16:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email7@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[postcode7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:pagetests.VerifySampleTestCase@5ebec15]" name="cleanUp" is-config="true" duration-ms="156" started-at="2015-11-02T16:41:12Z" finished-at="2015-11-02T16:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- pagetests.VerifySampleTestCase -->
+    </test> <!-- TC3 -->
+    <test name="TC4" duration-ms="16491" started-at="2015-11-02T09:41:12Z" finished-at="2015-11-02T09:41:28Z">
+      <class name="pagetests.VerifySampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="setUp" is-config="true" duration-ms="7619" started-at="2015-11-02T16:41:12Z" finished-at="2015-11-02T16:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="test_1" duration-ms="4014" started-at="2015-11-02T16:41:19Z" description="Verify Adoption-Page checkLion" finished-at="2015-11-02T16:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="test_2()[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="test_2" duration-ms="3526" started-at="2015-11-02T16:41:23Z" description="Verify Adoption-Page checkTurle" depends-on-methods="pagetests.VerifySampleTestCase.test_1" finished-at="2015-11-02T16:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:pagetests.VerifySampleTestCase@79b4d0f]" name="cleanUp" is-config="true" duration-ms="1330" started-at="2015-11-02T16:41:27Z" finished-at="2015-11-02T16:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- pagetests.VerifySampleTestCase -->
+    </test> <!-- TC4 -->
+  </suite> <!-- Suite -->
+</testng-results>

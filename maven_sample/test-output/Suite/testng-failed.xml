@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="TC4(failed)" parallel="none">
+    <classes>
+      <class name="pagetests.VerifySampleTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="test_3" invocation-numbers="0 1 2"/>
+          <include name="test_1"/>
+          <include name="test_4" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="test_2"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- pagetests.VerifySampleTestCase -->
+    </classes>
+  </test> <!-- TC4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
