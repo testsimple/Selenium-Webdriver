@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class AboutZooPage extends AbstractPage {
-// @By LamTanDung
+
 	// Constructor
 	public AboutZooPage(WebDriver driver) {
 		super(driver);
@@ -16,5 +16,4 @@ public class AboutZooPage extends AbstractPage {
 		navigateToWebApp();
 		return new HomePage(driver);
 	}
-// Version I
 }
